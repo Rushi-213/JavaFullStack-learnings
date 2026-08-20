@@ -25,7 +25,7 @@ public class HttpSessionServlet extends HttpServlet {
 		out.println("City is : "+password+"<br>");
 		
 		HttpSession h=request.getSession();
-		h.setAttribute("password is:", password);
+		h.setAttribute("password1:", password);
 		h.setAttribute("username is:", username);
 		
 		out.print("<a href='HttpSessionServlet2'> click me </a>");

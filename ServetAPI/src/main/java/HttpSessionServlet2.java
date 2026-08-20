@@ -25,8 +25,8 @@ public class HttpSessionServlet2 extends HttpServlet {
 		out.println("City is : "+password+"<br>");
 		
 		HttpSession h1=request.getSession(false);
-		h1.getAttribute("password is:");
-		h1.getAttribute("username is:");
+		h1.getAttribute(password);
+		h1.getAttribute(username);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
