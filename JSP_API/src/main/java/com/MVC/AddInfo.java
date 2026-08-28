@@ -2,35 +2,45 @@ package com.MVC;
 
 public class AddInfo {
 	private int id;
-	private String name;
-	private String email;
-	private String city;
+	private String myname;
+	private String myemail;
+	private String mycity;
+	private int myage;
 	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getMyname() {
+		return myname;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setMyname(String myname) {
+		this.myname = myname;
 	}
-	public String getEmail() {
-		return email;
+	public String getMyemail() {
+		return myemail;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setMyemail(String myemail) {
+		this.myemail = myemail;
 	}
-	public String getCity() {
-		return city;
+	public String getMycity() {
+		return mycity;
 	}
-	public void setCity(String city) {
-		this.city = city;
+	public void setMycity(String mycity) {
+		this.mycity = mycity;
+	}
+	public int getMyage() {
+		return myage;
+	}
+	public void setMyage(int myage) {
+		this.myage = myage;
 	}
 	@Override
 	public String toString() {
-		return "AddInfo [id=" + id + ", name=" + name + ", email=" + email + ", city=" + city + "]";
+		return "Addinfo [id=" + id + ", myname=" + myname + ", myemail=" + myemail + ", mycity=" + mycity + ", myage="
+				+ myage + "]";
 	}
+	
+	
 }
